@@ -1,0 +1,51 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add prop-types
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\UNKNOWN\bin;C:\Python27;C:\Python27\Scripts;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\UNKNOWN\AppData\Local\Android\sdk\emulator;C:\Program Files\nodejs;C:\Program Files\Java\jdk1.8.0_191\bin;%PATH;C:\Program Files\Java\jdk1.8.0_191\bin";C:\Program Files (x86)\Yarn\bin;C:\Users\UNKNOWN\AppData\Local\Microsoft\WindowsApps;C:\Users\UNKNOWN\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\UNKNOWN\AppData\Local\Android\sdk\emulator;C:\Users\UNKNOWN\AppData\Roaming\npm;C:\Program Files\Java\jdk1.8.0_191;C:\Python27;C:\Python27\Scripts;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\UNKNOWN\AppData\Local\Android\sdk\emulator;C:\Program Files\nodejs;C:\Program Files\Java\jdk1.8.0_191\bin;%PATH;C:\Program Files\Java\jdk1.8.0_191\bin";C:\Program Files (x86)\Yarn\bin;C:\Users\UNKNOWN\AppData\Local\Android\sdk\emulator\bin";C:\Users\UNKNOWN\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  11.2.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/lottie-react-native/-/lottie-react-native-2.5.0.tgz: unexpected end of file
+      at Zlib.zlibOnError [as onerror] (zlib.js:155:17)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "eject": "expo eject",
+      "test": "node ./node_modules/jest/bin/jest.js --watchAll"
+    },
+    "jest": {
+      "preset": "jest-expo"
+    },
+    "dependencies": {
+      "@expo/samples": "2.1.1",
+      "expo": "^31.0.2",
+      "react": "16.5.0",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-31.0.0.tar.gz",
+      "react-navigation": "^2.18.2"
+    },
+    "devDependencies": {
+      "babel-preset-expo": "^5.0.0",
+      "jest-expo": "^31.0.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
